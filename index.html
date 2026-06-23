@@ -1,61 +1,25 @@
 <!DOCTYPE html>
+
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Методика русского языка · культуроведческий подход · КТ</title>
-<style>
-:root { --bg:#f7f3ec; --card:#fffdf8; --ink:#28231d; --muted:#70675d; --line:#e2d6c5; --accent:#5b3f8c; --accent2:#b87942; --soft:#efe9f7; --ok:#2f7d4f; --bad:#b23a3a;
+<style>:root { --bg:#f7f3ec; --card:#fffdf8; --ink:#28231d; --muted:#70675d; --line:#e2d6c5; --accent:#5b3f8c; --accent2:#b87942; --soft:#efe9f7; --ok:#2f7d4f; --bad:#b23a3a;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,sans-serif;line-height:1.55}
-a{color:inherit;text-decoration:none}
-.hero{padding:42px 18px 30px;background:linear-gradient(135deg,#3e2868,#7b5aae);color:white}
-.wrap{max-width:1160px;margin:0 auto}
-.badge{display:inline-block;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.16);font-size:13px;margin-bottom:12px}
-h1{margin:0;font-size:clamp(28px,5vw,50px);line-height:1.05}
-.hero p{max-width:920px;margin:14px 0 0;color:#f6edf9;font-size:17px}
-.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
-.stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:16px;padding:10px 12px}
-.main{padding:22px 18px 50px}
-.notice{background:#fffaf2;border:1px solid var(--line);border-radius:22px;padding:18px;margin:20px 0}
-.nav{display:flex;flex-wrap:wrap;gap:8px;padding:14px 0 4px}
-.nav a{background:var(--soft);border:1px solid var(--line);padding:9px 11px;border-radius:999px;font-size:13px;color:#4d3675}
-.section{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:22px;margin:18px 0;box-shadow:0 12px 28px rgba(91,63,140,.06)}
-.section h2{margin:8px 0 10px;font-size:25px}
-.section h3{margin:20px 0 10px}
-.tags{display:flex;flex-wrap:wrap;gap:8px}
-.tag{font-size:12px;border-radius:999px;padding:6px 10px;background:#f0eaf8;color:#5b3f8c;border:1px solid var(--line)}
-.tag.dark{background:var(--accent);color:white;border-color:var(--accent)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
-.mini-card{background:#fbf7ef;border:1px solid var(--line);border-radius:16px;padding:12px}
-.mini-card p{margin:6px 0 0;color:var(--muted);font-size:14px}
-.source-note{margin:16px 0;padding:12px;border-radius:16px;background:#f2edf8;border:1px dashed #cfc0e4;color:#4b366e;font-size:14px}
-.question{border:1px solid var(--line);border-radius:20px;padding:16px;margin:14px 0;background:#fffaf3}
-.q-top{display:flex;gap:12px;align-items:flex-start}
-.q-num{min-width:34px;height:34px;border-radius:50%;background:var(--accent);color:white;display:flex;align-items:center;justify-content:center;font-weight:800}
-.q-text{font-weight:750;font-size:16px}
-.level{display:inline-block;margin-left:8px;font-size:11px;padding:3px 7px;border-radius:999px;background:#eee5f7;color:#5b3f8c}
-.options{display:grid;gap:8px;margin-top:12px}
-.option{display:flex;gap:10px;align-items:flex-start;border:1px solid #eadfce;border-radius:14px;padding:10px;background:white;cursor:pointer}
-.option input{margin-top:4px}
-.option.correct{border-color:rgba(47,125,79,.45);background:#eef8f1}
-.option.wrong{border-color:rgba(178,58,58,.35);background:#fff0ef}
-.answer-review{display:none;margin-top:12px;border-top:1px solid var(--line);padding-top:10px;color:#4a4037}
-.question.checked .answer-review{display:block}
-.section-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px}
+a{color:inherit;text-decoration:none}.hero{padding:42px 18px 30px;background:linear-gradient(135deg,#3e2868,#7b5aae);color:white}.wrap{max-width:1160px;margin:0 auto}.badge{display:inline-block;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.16);font-size:13px;margin-bottom:12px}
+h1{margin:0;font-size:clamp(28px,5vw,50px);line-height:1.05}.hero p{max-width:920px;margin:14px 0 0;color:#f6edf9;font-size:17px}.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:16px;padding:10px 12px}.main{padding:22px 18px 50px}.notice{background:#fffaf2;border:1px solid var(--line);border-radius:22px;padding:18px;margin:20px 0}.nav{display:flex;flex-wrap:wrap;gap:8px;padding:14px 0 4px}.nav a{background:var(--soft);border:1px solid var(--line);padding:9px 11px;border-radius:999px;font-size:13px;color:#4d3675}.section{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:22px;margin:18px 0;box-shadow:0 12px 28px rgba(91,63,140,.06)}.section h2{margin:8px 0 10px;font-size:25px}.section h3{margin:20px 0 10px}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{font-size:12px;border-radius:999px;padding:6px 10px;background:#f0eaf8;color:#5b3f8c;border:1px solid var(--line)}.tag.dark{background:var(--accent);color:white;border-color:var(--accent)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.mini-card{background:#fbf7ef;border:1px solid var(--line);border-radius:16px;padding:12px}.mini-card p{margin:6px 0 0;color:var(--muted);font-size:14px}.source-note{margin:16px 0;padding:12px;border-radius:16px;background:#f2edf8;border:1px dashed #cfc0e4;color:#4b366e;font-size:14px}.question{border:1px solid var(--line);border-radius:20px;padding:16px;margin:14px 0;background:#fffaf3}.q-top{display:flex;gap:12px;align-items:flex-start}.q-num{min-width:34px;height:34px;border-radius:50%;background:var(--accent);color:white;display:flex;align-items:center;justify-content:center;font-weight:800}.q-text{font-weight:750;font-size:16px}.level{display:inline-block;margin-left:8px;font-size:11px;padding:3px 7px;border-radius:999px;background:#eee5f7;color:#5b3f8c}.options{display:grid;gap:8px;margin-top:12px}.option{display:flex;gap:10px;align-items:flex-start;border:1px solid #eadfce;border-radius:14px;padding:10px;background:white;cursor:pointer}.option input{margin-top:4px}.option.correct{border-color:rgba(47,125,79,.45);background:#eef8f1}.option.wrong{border-color:rgba(178,58,58,.35);background:#fff0ef}.answer-review{display:none;margin-top:12px;border-top:1px solid var(--line);padding-top:10px;color:#4a4037}.question.checked.answer-review{display:block}.section-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px}
 button{border:0;border-radius:14px;background:var(--accent);color:white;padding:11px 16px;font-weight:800;cursor:pointer}
-button:hover{background:#432f69}
-.back-top{font-size:14px;color:var(--accent);font-weight:750}
-.section-result{margin-top:10px;font-weight:800;color:var(--accent)}
-.footer{padding:24px 18px;background:#35284d;color:#f8f0fb;text-align:center}
+button:hover{background:#432f69}.back-top{font-size:14px;color:var(--accent);font-weight:750}.section-result{margin-top:10px;font-weight:800;color:var(--accent)}.footer{padding:24px 18px;background:#35284d;color:#f8f0fb;text-align:center}
 @media(max-width:640px){.section{padding:16px;border-radius:20px}.q-top{gap:8px}.q-text{font-size:15px}}
 </style>
 </head>
 <body id="top">
 <header class="hero"><div class="wrap"><div class="badge">Методика преподавания русского языка · КТ</div><h1>Культуроведческий подход и методика русского языка</h1><p>Подготовительный сайт по культуроведческому обучению русскому языку: культурный концепт, текст, словарь, межкультурная коммуникация и методическая организация урока.</p><div class="stats"><div class="stat">Блоков: <b>11</b></div><div class="stat">Вопросов: <b>63</b></div><div class="stat">Формат: <b>КТ-дайындық</b></div></div></div></header>
 <main class="main"><div class="wrap">
-<section class="notice"><h2>Официальные источники сайта</h2><div class="grid"><div class="mini-card"><b>Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</b><p>Основной материал: культуроведческий подход, культурные концепты, текст, словарь, межкультурная коммуникация.</p></div><div class="mini-card"><b>Мурина Л.А. Методика русского языка в школах Белоруссии. Минск: Университетское, 1990.</b><p>Используются подтверждённые библиографические сведения без неподтверждённых глав и фактов.</p></div></div></section>
+<section class="notice"><h2>Официальные источники</h2><div class="grid"><div class="mini-card"><b>Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</b><p>Основной материал: культуроведческий подход, культурные концепты, текст, словарь, межкультурная коммуникация.</p></div><div class="mini-card"><b>Мурина Л.А. Методика русского языка. Минск: Университетское, 1990.</b><p>Используются подтверждённые библиографические сведения без неподтверждённых глав и фактов.</p></div></div></section>
 <nav class="nav"><a href="#book7-passport">Методическое руководство и элективный курс</a>
 <a href="#book7-kt-link">Культуроведческий и коммуникативный подход</a>
 <a href="#book7-lesson-materials">Текст, словарь, справочная литература и искусств</a>
@@ -80,57 +44,57 @@ button:hover{background:#432f69}
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Какое назначение имеет методическое руководство для учителя? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-passport-q1" value="A"><span>помогать анализировать только художественные жанры</span></label>
-<label class="option"><input type="radio" name="book7-passport-q1" value="B"><span>раскрывать только орфографические правила</span></label>
-<label class="option"><input type="radio" name="book7-passport-q1" value="C"><span>помогать учителю организовать цель, материалы и работу на уроке</span></label>
-<label class="option"><input type="radio" name="book7-passport-q1" value="D"><span>обобщать грамматические нормы вне урока</span></label>
-<label class="option"><input type="radio" name="book7-passport-q1" value="E"><span>заменять урок контрольными заданиями</span></label>
+<label class="option"><input name="book7-passport-q1" type="radio" value="A"/><span>помогать анализировать художественные жанры</span></label>
+<label class="option"><input name="book7-passport-q1" type="radio" value="B"/><span>раскрывать орфографические правила</span></label>
+<label class="option"><input name="book7-passport-q1" type="radio" value="C"/><span>методическая организация урока</span></label>
+<label class="option"><input name="book7-passport-q1" type="radio" value="D"/><span>обобщать грамматические нормы вне урока</span></label>
+<label class="option"><input name="book7-passport-q1" type="radio" value="E"/><span>заменять урок контрольными заданиями</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Методическое руководство помогает учителю выстроить урок: определить цель, подобрать материалы и организовать деятельность учащихся.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Для каких классов предназначен элективный курс «Русский язык в диалоге культур»? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-passport-q2" value="A"><span>5–6 классы</span></label>
-<label class="option"><input type="radio" name="book7-passport-q2" value="B"><span>6–7 классы</span></label>
-<label class="option"><input type="radio" name="book7-passport-q2" value="C"><span>7–8 классы</span></label>
-<label class="option"><input type="radio" name="book7-passport-q2" value="D"><span>8–9 классы</span></label>
-<label class="option"><input type="radio" name="book7-passport-q2" value="E"><span>10–11 классы</span></label>
+<label class="option"><input name="book7-passport-q2" type="radio" value="A"/><span>5–6 классы</span></label>
+<label class="option"><input name="book7-passport-q2" type="radio" value="B"/><span>6–7 классы</span></label>
+<label class="option"><input name="book7-passport-q2" type="radio" value="C"/><span>7–8 классы</span></label>
+<label class="option"><input name="book7-passport-q2" type="radio" value="D"/><span>8–9 классы</span></label>
+<label class="option"><input name="book7-passport-q2" type="radio" value="E"/><span>10–11 классы</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> В названии курса указаны 10–11 классы.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,C,F">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Выберите тематические блоки элективного курса. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>Человек</span></label>
-<label class="option"><input type="checkbox" value="B"><span>Искусство</span></label>
-<label class="option"><input type="checkbox" value="C"><span>Общество</span></label>
-<label class="option"><input type="checkbox" value="D"><span>История</span></label>
-<label class="option"><input type="checkbox" value="E"><span>Наука</span></label>
-<label class="option"><input type="checkbox" value="F"><span>Природа</span></label>
-<label class="option"><input type="checkbox" value="G"><span>Техника</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>Человек</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>Искусство</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>Общество</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>История</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>Наука</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>Природа</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>Техника</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,C,F.</p><p><b>Объяснение:</b> В курсе выделяются блоки «Человек», «Общество», «Природа».</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Какой словарь используется при построении уроков элективного курса? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-passport-q4" value="A"><span>словарь «Концепты русской культуры в межкультурной коммуникации»</span></label>
-<label class="option"><input type="radio" name="book7-passport-q4" value="B"><span>словарь трудностей русского произношения</span></label>
-<label class="option"><input type="radio" name="book7-passport-q4" value="C"><span>словарь орфографических норм русского языка</span></label>
-<label class="option"><input type="radio" name="book7-passport-q4" value="D"><span>словарь синтаксических конструкций</span></label>
-<label class="option"><input type="radio" name="book7-passport-q4" value="E"><span>словарь методических терминов</span></label>
+<label class="option"><input name="book7-passport-q4" type="radio" value="A"/><span>словарь культурных концептов</span></label>
+<label class="option"><input name="book7-passport-q4" type="radio" value="B"/><span>словарь трудностей русского произношения</span></label>
+<label class="option"><input name="book7-passport-q4" type="radio" value="C"/><span>словарь орфографических норм русского языка</span></label>
+<label class="option"><input name="book7-passport-q4" type="radio" value="D"/><span>словарь синтаксических конструкций</span></label>
+<label class="option"><input name="book7-passport-q4" type="radio" value="E"/><span>словарь методических терминов</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> В описании курса указан словарь культурных концептов.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Какое направление является главным для курса «Русский язык в диалоге культур»? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-passport-q5" value="A"><span>орфографическая подготовка через систему правил</span></label>
-<label class="option"><input type="radio" name="book7-passport-q5" value="B"><span>пунктуационный анализ сложных предложений</span></label>
-<label class="option"><input type="radio" name="book7-passport-q5" value="C"><span>морфологический разбор частей речи</span></label>
-<label class="option"><input type="radio" name="book7-passport-q5" value="D"><span>связь русского языка, культурных концептов и межкультурного общения</span></label>
-<label class="option"><input type="radio" name="book7-passport-q5" value="E"><span>лексический минимум для школьного словаря</span></label>
+<label class="option"><input name="book7-passport-q5" type="radio" value="A"/><span>орфографическая подготовка через систему правил</span></label>
+<label class="option"><input name="book7-passport-q5" type="radio" value="B"/><span>пунктуационный анализ сложных предложений</span></label>
+<label class="option"><input name="book7-passport-q5" type="radio" value="C"/><span>морфологический разбор частей речи</span></label>
+<label class="option"><input name="book7-passport-q5" type="radio" value="D"/><span>культуроведческое направление обучения</span></label>
+<label class="option"><input name="book7-passport-q5" type="radio" value="E"/><span>лексический минимум для школьного словаря</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Курс раскрывает русский язык через культурные концепты и межкультурную коммуникацию.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -149,70 +113,70 @@ button:hover{background:#432f69}
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Что означает культуроведческий подход в обучении русскому языку? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-kt-link-q1" value="A"><span>изучение языка через орфографические правила</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q1" value="B"><span>изучение языка через культурные смыслы, тексты и ценности</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q1" value="C"><span>изучение языка через классификацию частей речи</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q1" value="D"><span>изучение языка через пунктуационный анализ</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q1" value="E"><span>изучение языка через проверку письменной грамотности</span></label>
+<label class="option"><input name="book7-kt-link-q1" type="radio" value="A"/><span>изучение языка через орфографические правила</span></label>
+<label class="option"><input name="book7-kt-link-q1" type="radio" value="B"/><span>изучение языка через культурные смыслы, тексты и ценности</span></label>
+<label class="option"><input name="book7-kt-link-q1" type="radio" value="C"/><span>изучение языка через классификацию частей речи</span></label>
+<label class="option"><input name="book7-kt-link-q1" type="radio" value="D"/><span>изучение языка через пунктуационный анализ</span></label>
+<label class="option"><input name="book7-kt-link-q1" type="radio" value="E"/><span>изучение языка через проверку письменной грамотности</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Культуроведческий подход связывает язык с культурными смыслами, текстом и ценностями.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Какая методическая задача связана с национально-культурным компонентом языковых единиц? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-kt-link-q2" value="A"><span>определять морфемный состав слова</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q2" value="B"><span>выделять грамматическую основу предложения</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q2" value="C"><span>проверять написание слов по правилу</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q2" value="D"><span>раскрывать культурный смысл слова в речевом и текстовом контексте</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q2" value="E"><span>составлять схему синтаксической конструкции</span></label>
+<label class="option"><input name="book7-kt-link-q2" type="radio" value="A"/><span>определять морфемный состав слова</span></label>
+<label class="option"><input name="book7-kt-link-q2" type="radio" value="B"/><span>выделять грамматическую основу предложения</span></label>
+<label class="option"><input name="book7-kt-link-q2" type="radio" value="C"/><span>проверять написание слов по правилу</span></label>
+<label class="option"><input name="book7-kt-link-q2" type="radio" value="D"/><span>лингвокультурологический анализ слова</span></label>
+<label class="option"><input name="book7-kt-link-q2" type="radio" value="E"/><span>составлять схему синтаксической конструкции</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Национально-культурный компонент связан с культурным смыслом языковой единицы.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C,E,F">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Выберите элементы, которые раскрывают культуроведческую направленность обучения. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>орфографический минимум</span></label>
-<label class="option"><input type="checkbox" value="B"><span>падежная парадигма</span></label>
-<label class="option"><input type="checkbox" value="C"><span>межкультурная коммуникация</span></label>
-<label class="option"><input type="checkbox" value="D"><span>синтаксическая схема</span></label>
-<label class="option"><input type="checkbox" value="E"><span>культурный концепт</span></label>
-<label class="option"><input type="checkbox" value="F"><span>текст как носитель культурного смысла</span></label>
-<label class="option"><input type="checkbox" value="G"><span>морфологический разбор</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>орфографический минимум</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>падежная парадигма</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>межкультурная коммуникация</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>синтаксическая схема</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>культурный концепт</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>текст как носитель культурного смысла</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>морфологический разбор</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C,E,F.</p><p><b>Объяснение:</b> Культуроведческая направленность проявляется через концепт, текст и межкультурное общение.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Почему словарь культурных концептов важен для урока русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-kt-link-q4" value="A"><span>он помогает раскрывать культурный смысл слов и текстов</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q4" value="B"><span>он помогает проверять написание трудных слов</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q4" value="C"><span>он помогает определять грамматические формы</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q4" value="D"><span>он помогает находить пунктуационные ошибки</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q4" value="E"><span>он помогает составлять синтаксические схемы</span></label>
+<label class="option"><input name="book7-kt-link-q4" type="radio" value="A"/><span>раскрытие культурного смысла слова</span></label>
+<label class="option"><input name="book7-kt-link-q4" type="radio" value="B"/><span>он помогает проверять написание трудных слов</span></label>
+<label class="option"><input name="book7-kt-link-q4" type="radio" value="C"/><span>он помогает определять грамматические формы</span></label>
+<label class="option"><input name="book7-kt-link-q4" type="radio" value="D"/><span>он помогает находить пунктуационные ошибки</span></label>
+<label class="option"><input name="book7-kt-link-q4" type="radio" value="E"/><span>он помогает составлять синтаксические схемы</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Словарь помогает понять культурные значения, выраженные в словах и текстах.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Какой ответ точнее отражает связь языка и культуры в элективном курсе? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-kt-link-q5" value="A"><span>язык рассматривается как набор орфографических правил</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q5" value="B"><span>язык рассматривается как система частей речи</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q5" value="C"><span>язык рассматривается как материал для пунктуационного анализа</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q5" value="D"><span>язык рассматривается как средство проверки грамотности</span></label>
-<label class="option"><input type="radio" name="book7-kt-link-q5" value="E"><span>язык рассматривается как средство выражения культурных смыслов и общения</span></label>
+<label class="option"><input name="book7-kt-link-q5" type="radio" value="A"/><span>язык рассматривается как набор орфографических правил</span></label>
+<label class="option"><input name="book7-kt-link-q5" type="radio" value="B"/><span>язык рассматривается как система частей речи</span></label>
+<label class="option"><input name="book7-kt-link-q5" type="radio" value="C"/><span>язык рассматривается как материал для пунктуационного анализа</span></label>
+<label class="option"><input name="book7-kt-link-q5" type="radio" value="D"/><span>язык рассматривается как средство проверки грамотности</span></label>
+<label class="option"><input name="book7-kt-link-q5" type="radio" value="E"/><span>язык как средство культуры и общения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> Русский язык раскрывается как средство культурного смысла и общения.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,B,D">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Выберите методические направления, связанные с культуроведческим обучением русскому языку. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>работа с культурным концептом</span></label>
-<label class="option"><input type="checkbox" value="B"><span>межкультурное общение</span></label>
-<label class="option"><input type="checkbox" value="C"><span>морфемный разбор слова</span></label>
-<label class="option"><input type="checkbox" value="D"><span>интерпретация текста как носителя культурного смысла</span></label>
-<label class="option"><input type="checkbox" value="E"><span>постановка знаков препинания</span></label>
-<label class="option"><input type="checkbox" value="F"><span>определение способа словообразования</span></label>
-<label class="option"><input type="checkbox" value="G"><span>проверка орфографической нормы</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>работа с культурным концептом</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>межкультурное общение</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>морфемный разбор слова</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>интерпретация текста как носителя культурного смысла</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>постановка знаков препинания</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>определение способа словообразования</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>проверка орфографической нормы</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,B,D.</p><p><b>Объяснение:</b> Методически значимы концепт, межкультурное общение и интерпретация текста.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -231,67 +195,67 @@ button:hover{background:#432f69}
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Какие материалы могут использоваться на уроке русского языка в диалоге культур? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-materials-q1" value="A"><span>орфографические правила и диктанты</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q1" value="B"><span>грамматические таблицы и схемы</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q1" value="C"><span>контрольные задания и тестовые ключи</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q1" value="D"><span>тексты, словари, справочные материалы, живопись и музыка</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q1" value="E"><span>планы, отчёты, журналы и календарные записи</span></label>
+<label class="option"><input name="book7-lesson-materials-q1" type="radio" value="A"/><span>орфографические правила и диктанты</span></label>
+<label class="option"><input name="book7-lesson-materials-q1" type="radio" value="B"/><span>грамматические таблицы и схемы</span></label>
+<label class="option"><input name="book7-lesson-materials-q1" type="radio" value="C"/><span>контрольные задания и тестовые ключи</span></label>
+<label class="option"><input name="book7-lesson-materials-q1" type="radio" value="D"/><span>текстовые, словарные и культурные материалы</span></label>
+<label class="option"><input name="book7-lesson-materials-q1" type="radio" value="E"/><span>планы, отчёты, журналы и календарные записи</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Культуроведческий урок соединяет текст, словарь, справочные материалы, живопись и музыку.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Что формулируется для каждого урока в методическом руководстве? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-materials-q2" value="A"><span>тема контрольной работы</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q2" value="B"><span>цель урока</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q2" value="C"><span>оценочная шкала</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q2" value="D"><span>домашний норматив</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q2" value="E"><span>итоговая отметка</span></label>
+<label class="option"><input name="book7-lesson-materials-q2" type="radio" value="A"/><span>тема контрольной работы</span></label>
+<label class="option"><input name="book7-lesson-materials-q2" type="radio" value="B"/><span>цель урока</span></label>
+<label class="option"><input name="book7-lesson-materials-q2" type="radio" value="C"/><span>оценочная шкала</span></label>
+<label class="option"><input name="book7-lesson-materials-q2" type="radio" value="D"/><span>домашний норматив</span></label>
+<label class="option"><input name="book7-lesson-materials-q2" type="radio" value="E"/><span>итоговая отметка</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Цель урока определяет содержание, материалы и ожидаемые действия учащихся.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Какую роль выполняет текст на культуроведческом уроке русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-materials-q3" value="A"><span>материал для списывания</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q3" value="B"><span>замена работы со словарём</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q3" value="C"><span>основа проверки орфографии</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q3" value="D"><span>пересказ без анализа смысла</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q3" value="E"><span>основа речевой и культурно-смысловой работы</span></label>
+<label class="option"><input name="book7-lesson-materials-q3" type="radio" value="A"/><span>материал для списывания в методической работе</span></label>
+<label class="option"><input name="book7-lesson-materials-q3" type="radio" value="B"/><span>замена работы со словарём</span></label>
+<label class="option"><input name="book7-lesson-materials-q3" type="radio" value="C"/><span>основа проверки орфографии</span></label>
+<label class="option"><input name="book7-lesson-materials-q3" type="radio" value="D"/><span>пересказ без анализа смысла</span></label>
+<label class="option"><input name="book7-lesson-materials-q3" type="radio" value="E"/><span>основа речевой и культурно-смысловой работы</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> Текст позволяет работать с речью, смыслом и культурным содержанием.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Какую функцию выполняет справочная литература на уроке? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-materials-q4" value="A"><span>заменяет художественный текст</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q4" value="B"><span>используется вместо цели урока</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q4" value="C"><span>расширяет сведения, необходимые для понимания культурного концепта</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q4" value="D"><span>служит для проверки правописания</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q4" value="E"><span>ограничивает работу пересказом</span></label>
+<label class="option"><input name="book7-lesson-materials-q4" type="radio" value="A"/><span>заменяет художественный текст</span></label>
+<label class="option"><input name="book7-lesson-materials-q4" type="radio" value="B"/><span>используется вместо цели урока</span></label>
+<label class="option"><input name="book7-lesson-materials-q4" type="radio" value="C"/><span>расширение сведений о концепте</span></label>
+<label class="option"><input name="book7-lesson-materials-q4" type="radio" value="D"/><span>служит для проверки правописания</span></label>
+<label class="option"><input name="book7-lesson-materials-q4" type="radio" value="E"/><span>ограничивает работу пересказом</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Справочная литература помогает уточнить сведения и раскрыть культурный концепт.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="D,E">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Выберите культурные материалы, которые могут использоваться на уроке. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>табель успеваемости</span></label>
-<label class="option"><input type="checkbox" value="B"><span>орфографическая карточка</span></label>
-<label class="option"><input type="checkbox" value="C"><span>контрольный диктант</span></label>
-<label class="option"><input type="checkbox" value="D"><span>музыкальные произведения</span></label>
-<label class="option"><input type="checkbox" value="E"><span>произведения живописи</span></label>
-<label class="option"><input type="checkbox" value="F"><span>грамматическая парадигма</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>табель успеваемости</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>орфографическая карточка</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>контрольный диктант</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>музыкальные произведения</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>произведения живописи</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>грамматическая парадигма</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D,E.</p><p><b>Объяснение:</b> Живопись и музыка помогают раскрывать культурный смысл темы.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Какой методический вывод отражает использование разных материалов на уроке? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-materials-q6" value="A"><span>урок строится вокруг одного грамматического правила</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q6" value="B"><span>урок ограничивается проверкой орфографии</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q6" value="C"><span>урок заменяет текстовую работу словарной записью</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q6" value="D"><span>урок исключает культурное содержание</span></label>
-<label class="option"><input type="radio" name="book7-lesson-materials-q6" value="E"><span>урок соединяет язык, текст, словарь и культурные материалы</span></label>
+<label class="option"><input name="book7-lesson-materials-q6" type="radio" value="A"/><span>урок строится вокруг одного грамматического правила</span></label>
+<label class="option"><input name="book7-lesson-materials-q6" type="radio" value="B"/><span>урок ограничивается проверкой орфографии</span></label>
+<label class="option"><input name="book7-lesson-materials-q6" type="radio" value="C"/><span>урок заменяет текстовую работу словарной записью</span></label>
+<label class="option"><input name="book7-lesson-materials-q6" type="radio" value="D"/><span>урок исключает культурное содержание в методической работе</span></label>
+<label class="option"><input name="book7-lesson-materials-q6" type="radio" value="E"/><span>урок соединяет язык, текст, словарь и культурные материалы</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> Разные материалы показывают интеграцию языкового и культурного содержания.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -310,68 +274,68 @@ button:hover{background:#432f69}
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Что включает методическая организация урока? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-structure-q1" value="A"><span>перечень отметок и форм отчётности</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q1" value="B"><span>список терминов без учебных действий</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q1" value="C"><span>цель, материалы, этапы и формы работы</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q1" value="D"><span>набор орфографических упражнений</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q1" value="E"><span>готовые ответы для итогового контроля</span></label>
+<label class="option"><input name="book7-lesson-structure-q1" type="radio" value="A"/><span>перечень отметок и форм отчётности</span></label>
+<label class="option"><input name="book7-lesson-structure-q1" type="radio" value="B"/><span>список терминов без учебных действий</span></label>
+<label class="option"><input name="book7-lesson-structure-q1" type="radio" value="C"/><span>цель, материалы, этапы и формы работы</span></label>
+<label class="option"><input name="book7-lesson-structure-q1" type="radio" value="D"/><span>набор орфографических упражнений</span></label>
+<label class="option"><input name="book7-lesson-structure-q1" type="radio" value="E"/><span>готовые ответы для итогового контроля</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Методическая организация урока включает цель, материалы, этапы и формы работы.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">На что направлены этапы и формы работы на культуроведческом уроке? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-structure-q2" value="A"><span>на усвоение национально-культурного компонента языковых единиц</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q2" value="B"><span>на механическое повторение грамматических определений</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q2" value="C"><span>на проверку орфографической зоркости</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q2" value="D"><span>на составление синтаксических схем</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q2" value="E"><span>на классификацию частей речи</span></label>
+<label class="option"><input name="book7-lesson-structure-q2" type="radio" value="A"/><span>освоение культурного компонента слова</span></label>
+<label class="option"><input name="book7-lesson-structure-q2" type="radio" value="B"/><span>на механическое повторение грамматических определений</span></label>
+<label class="option"><input name="book7-lesson-structure-q2" type="radio" value="C"/><span>на проверку орфографической зоркости</span></label>
+<label class="option"><input name="book7-lesson-structure-q2" type="radio" value="D"/><span>на составление синтаксических схем</span></label>
+<label class="option"><input name="book7-lesson-structure-q2" type="radio" value="E"/><span>на классификацию частей речи</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Этапы и формы работы помогают осваивать культурный смысл языковых единиц.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Что стимулируют формы работы при раскрытии культурных концептов? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-structure-q3" value="A"><span>механическое запоминание терминов</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q3" value="B"><span>творческую активность учащихся</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q3" value="C"><span>формальное списывание текста</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q3" value="D"><span>повторение правил без текста</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q3" value="E"><span>заучивание готовых определений</span></label>
+<label class="option"><input name="book7-lesson-structure-q3" type="radio" value="A"/><span>механическое запоминание терминов</span></label>
+<label class="option"><input name="book7-lesson-structure-q3" type="radio" value="B"/><span>творческую активность учащихся</span></label>
+<label class="option"><input name="book7-lesson-structure-q3" type="radio" value="C"/><span>формальное списывание текста</span></label>
+<label class="option"><input name="book7-lesson-structure-q3" type="radio" value="D"/><span>повторение правил без текста</span></label>
+<label class="option"><input name="book7-lesson-structure-q3" type="radio" value="E"/><span>заучивание готовых определений</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Работа с концептами предполагает интерпретацию и творческое участие.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,E,G">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Выберите элементы методической структуры урока. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>формы работы</span></label>
-<label class="option"><input type="checkbox" value="B"><span>табель посещаемости</span></label>
-<label class="option"><input type="checkbox" value="C"><span>перечень отметок</span></label>
-<label class="option"><input type="checkbox" value="D"><span>административный отчёт</span></label>
-<label class="option"><input type="checkbox" value="E"><span>цель урока</span></label>
-<label class="option"><input type="checkbox" value="F"><span>график дежурств</span></label>
-<label class="option"><input type="checkbox" value="G"><span>методические материалы</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>формы работы</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>табель посещаемости</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>перечень отметок</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>административный отчёт</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>цель урока</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>график дежурств</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>методические материалы</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,E,G.</p><p><b>Объяснение:</b> Методическая структура урока включает цель, материалы и формы работы.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Какой результат соответствует культуроведческой логике урока русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-structure-q5" value="A"><span>учащийся раскрывает культурный смысл языковых единиц через текст и деятельность</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q5" value="B"><span>учащийся запоминает термины без речевого применения</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q5" value="C"><span>учащийся выполняет разбор без связи с содержанием текста</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q5" value="D"><span>учащийся списывает готовый материал</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q5" value="E"><span>учащийся повторяет правило без культурного контекста</span></label>
+<label class="option"><input name="book7-lesson-structure-q5" type="radio" value="A"/><span>раскрытие культурного смысла через текст</span></label>
+<label class="option"><input name="book7-lesson-structure-q5" type="radio" value="B"/><span>учащийся запоминает термины без речевого применения</span></label>
+<label class="option"><input name="book7-lesson-structure-q5" type="radio" value="C"/><span>учащийся выполняет разбор без связи с содержанием текста</span></label>
+<label class="option"><input name="book7-lesson-structure-q5" type="radio" value="D"/><span>учащийся списывает готовый материал</span></label>
+<label class="option"><input name="book7-lesson-structure-q5" type="radio" value="E"/><span>учащийся повторяет правило без культурного контекста</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Культуроведческая логика объединяет язык, текст, смысл и деятельность ученика.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Какой ответ точнее отражает организацию урока вокруг культурного концепта? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-lesson-structure-q6" value="A"><span>цель урока заменяется списком терминов</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q6" value="B"><span>материалы урока отделяются от текста и культуры</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q6" value="C"><span>форма работы не связана с деятельностью учащихся</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q6" value="D"><span>цель, материалы, этапы и формы работы соединяются вокруг культурного смысла</span></label>
-<label class="option"><input type="radio" name="book7-lesson-structure-q6" value="E"><span>культурный смысл заменяется орфографическим упражнением</span></label>
+<label class="option"><input name="book7-lesson-structure-q6" type="radio" value="A"/><span>цель урока заменяется списком терминов</span></label>
+<label class="option"><input name="book7-lesson-structure-q6" type="radio" value="B"/><span>материалы урока отделяются от текста и культуры</span></label>
+<label class="option"><input name="book7-lesson-structure-q6" type="radio" value="C"/><span>форма работы не связана с деятельностью учащихся</span></label>
+<label class="option"><input name="book7-lesson-structure-q6" type="radio" value="D"/><span>организация урока вокруг культурного смысла</span></label>
+<label class="option"><input name="book7-lesson-structure-q6" type="radio" value="E"/><span>культурный смысл заменяется орфографическим упражнением</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Культурный концепт организует цель, материалы, этапы и деятельность учащихся.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -391,68 +355,68 @@ button:hover{background:#432f69}
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Какие разделы русского языка углубляются при культуроведческом обучении? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-language-sections-q1" value="A"><span>орфография, пунктуация, каллиграфия и техника чтения</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q1" value="B"><span>фонетика, орфоэпия, графика и письмо</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q1" value="C"><span>стилистика, риторика, поэтика и текстология</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q1" value="D"><span>лексика, фразеология, морфология и синтаксис</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q1" value="E"><span>чтение, письмо, слушание и говорение</span></label>
+<label class="option"><input name="book7-language-sections-q1" type="radio" value="A"/><span>орфография, пунктуация, каллиграфия и техника чтения</span></label>
+<label class="option"><input name="book7-language-sections-q1" type="radio" value="B"/><span>фонетика, орфоэпия, графика и письмо</span></label>
+<label class="option"><input name="book7-language-sections-q1" type="radio" value="C"/><span>стилистика, риторика, поэтика и текстология</span></label>
+<label class="option"><input name="book7-language-sections-q1" type="radio" value="D"/><span>лексика, фразеология, морфология и синтаксис</span></label>
+<label class="option"><input name="book7-language-sections-q1" type="radio" value="E"/><span>чтение, письмо, слушание и говорение</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Курс углубляет знания по лексике, фразеологии, морфологии и синтаксису.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Какой раздел русского языка изучает устойчивые выражения? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-language-sections-q2" value="A"><span>морфология</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q2" value="B"><span>фразеология</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q2" value="C"><span>синтаксис</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q2" value="D"><span>лексика</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q2" value="E"><span>орфография</span></label>
+<label class="option"><input name="book7-language-sections-q2" type="radio" value="A"/><span>морфология</span></label>
+<label class="option"><input name="book7-language-sections-q2" type="radio" value="B"/><span>фразеология</span></label>
+<label class="option"><input name="book7-language-sections-q2" type="radio" value="C"/><span>синтаксис</span></label>
+<label class="option"><input name="book7-language-sections-q2" type="radio" value="D"/><span>лексика</span></label>
+<label class="option"><input name="book7-language-sections-q2" type="radio" value="E"/><span>орфография</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Фразеология изучает устойчивые сочетания слов.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Какой раздел русского языка связан с частями речи и грамматическими формами слов? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-language-sections-q3" value="A"><span>фразеология</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q3" value="B"><span>синтаксис</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q3" value="C"><span>морфология</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q3" value="D"><span>пунктуация</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q3" value="E"><span>лексика</span></label>
+<label class="option"><input name="book7-language-sections-q3" type="radio" value="A"/><span>фразеология</span></label>
+<label class="option"><input name="book7-language-sections-q3" type="radio" value="B"/><span>синтаксис</span></label>
+<label class="option"><input name="book7-language-sections-q3" type="radio" value="C"/><span>морфология</span></label>
+<label class="option"><input name="book7-language-sections-q3" type="radio" value="D"/><span>пунктуация</span></label>
+<label class="option"><input name="book7-language-sections-q3" type="radio" value="E"/><span>лексика</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Морфология изучает части речи и формы слов.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Какой раздел русского языка связан со словосочетанием и предложением? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-language-sections-q4" value="A"><span>морфология</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q4" value="B"><span>фразеология</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q4" value="C"><span>синтаксис</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q4" value="D"><span>лексика</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q4" value="E"><span>орфоэпия</span></label>
+<label class="option"><input name="book7-language-sections-q4" type="radio" value="A"/><span>морфология</span></label>
+<label class="option"><input name="book7-language-sections-q4" type="radio" value="B"/><span>фразеология</span></label>
+<label class="option"><input name="book7-language-sections-q4" type="radio" value="C"/><span>синтаксис</span></label>
+<label class="option"><input name="book7-language-sections-q4" type="radio" value="D"/><span>лексика</span></label>
+<label class="option"><input name="book7-language-sections-q4" type="radio" value="E"/><span>орфоэпия</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Синтаксис изучает словосочетание и предложение.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Как культуроведческое обучение связано с языковой работой? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-language-sections-q5" value="A"><span>заменяет языковые разделы культурными сведениями</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q5" value="B"><span>исключает грамматику из текстовой работы</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q5" value="C"><span>оставляет языковые единицы вне культурного контекста</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q5" value="D"><span>углубляет языковые знания через культурный смысл, текст и коммуникацию</span></label>
-<label class="option"><input type="radio" name="book7-language-sections-q5" value="E"><span>сводит урок к повторению терминов</span></label>
+<label class="option"><input name="book7-language-sections-q5" type="radio" value="A"/><span>заменяет языковые разделы культурными сведениями</span></label>
+<label class="option"><input name="book7-language-sections-q5" type="radio" value="B"/><span>исключает грамматику из текстовой работы</span></label>
+<label class="option"><input name="book7-language-sections-q5" type="radio" value="C"/><span>оставляет языковые единицы вне культурного контекста</span></label>
+<label class="option"><input name="book7-language-sections-q5" type="radio" value="D"/><span>углубление языка через текст и культуру</span></label>
+<label class="option"><input name="book7-language-sections-q5" type="radio" value="E"/><span>сводит урок к повторению терминов</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Культуроведческий подход углубляет языковую работу через текст и культурный смысл.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,B,E">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Выберите связи языка и культуры, значимые для методики русского языка. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>культурный концепт и лексика</span></label>
-<label class="option"><input type="checkbox" value="B"><span>фразеология и культурный смысл</span></label>
-<label class="option"><input type="checkbox" value="C"><span>отметка и журнал успеваемости</span></label>
-<label class="option"><input type="checkbox" value="D"><span>расписание и форма отчётности</span></label>
-<label class="option"><input type="checkbox" value="E"><span>текст и синтаксическая организация речи</span></label>
-<label class="option"><input type="checkbox" value="F"><span>административная карточка и урок</span></label>
-<label class="option"><input type="checkbox" value="G"><span>номер записи и речевая деятельность</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>культурный концепт и лексика</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>фразеология и культурный смысл</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>отметка и журнал успеваемости</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>расписание и форма отчётности</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>текст и синтаксическая организация речи</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>административная карточка и урок</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>номер записи и речевая деятельность</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,B,E.</p><p><b>Объяснение:</b> Методически важны связи концепта с лексикой, фразеологии с культурным смыслом и текста с синтаксической организацией речи.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -460,47 +424,21 @@ button:hover{background:#432f69}
 </section>
 <section class="section quiz-section" id="book8-passport">
 <div class="tags"><span class="tag dark">КТ</span><span class="tag">КТ</span><span class="tag">тест</span></div>
-<h2>Официальные сведения о пособии Л.А. Муриной</h2>
-<p>Блок использует подтверждённые библиографические сведения и не добавляет неподтверждённые главы или факты.</p>
+<h2>Методика русского языка: подтверждённые сведения</h2>
+<p>В этом блоке используются подтверждённые библиографические сведения и общая связь с методикой русского языка.</p>
 <h3>Ключевые понятия</h3><div class="grid">
 <div class="mini-card"><b>Учебное пособие</b><p>тип источника по библиографическому описанию</p></div>
 <div class="mini-card"><b>Методика русского языка</b><p>направление, связанное с обучением русскому языку</p></div>
 <div class="mini-card"><b>Строгость источника</b><p>использование подтверждённых данных без выдуманных разделов</p></div>
 </div>
-<div class="source-note"><b>Источник:</b> Мурина Л.А. Методика русского языка в школах Белоруссии. Минск: Университетское, 1990.</div>
-<article class="question" data-answer="C">
-<div class="q-top"><div class="q-num">1</div><div class="q-text">Какое название имеет учебное пособие Л.А. Муриной? <span class="level">B</span></div></div>
-<div class="options">
-<label class="option"><input type="radio" name="book8-passport-q1" value="A"><span>Русский язык в диалоге культур</span></label>
-<label class="option"><input type="radio" name="book8-passport-q1" value="B"><span>Концепты русской культуры в межкультурной коммуникации</span></label>
-<label class="option"><input type="radio" name="book8-passport-q1" value="C"><span>Методика русского языка в школах Белоруссии</span></label>
-<label class="option"><input type="radio" name="book8-passport-q1" value="D"><span>Методика изучения разделов школьного курса русского языка</span></label>
-<label class="option"><input type="radio" name="book8-passport-q1" value="E"><span>Методика преподавания русского языка в средней школе</span></label>
-</div>
-<div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> В библиографическом описании указано название «Методика русского языка в школах Белоруссии».</p><p><b>Источник:</b> Мурина Л.А. Методика русского языка в школах Белоруссии. Минск: Университетское, 1990.</p></div>
-</article>
-<article class="question" data-answer="B">
-<div class="q-top"><div class="q-num">2</div><div class="q-text">Как корректно использовать пособие, если доступны общие библиографические сведения? <span class="level">C</span></div></div>
-<div class="options">
-<label class="option"><input type="radio" name="book8-passport-q2" value="A"><span>создавать подробные вопросы по предполагаемым главам</span></label>
-<label class="option"><input type="radio" name="book8-passport-q2" value="B"><span>опираться на подтверждённые сведения и не добавлять непроверенное содержание</span></label>
-<label class="option"><input type="radio" name="book8-passport-q2" value="C"><span>заменять содержание материалами других учебников</span></label>
-<label class="option"><input type="radio" name="book8-passport-q2" value="D"><span>расширять темы по аналогии с похожими работами</span></label>
-<label class="option"><input type="radio" name="book8-passport-q2" value="E"><span>составлять тесты по разделам без проверки полного текста</span></label>
-</div>
-<div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> При отсутствии полного текста корректно использовать подтверждённые сведения и не придумывать содержание.</p><p><b>Источник:</b> Мурина Л.А. Методика русского языка в школах Белоруссии. Минск: Университетское, 1990.</p></div>
-</article>
-<article class="question" data-answer="A">
-<div class="q-top"><div class="q-num">3</div><div class="q-text">Какой подход соответствует строгой подготовке по официальной литературе? <span class="level">C</span></div></div>
-<div class="options">
-<label class="option"><input type="radio" name="book8-passport-q3" value="A"><span>использовать подтверждённые данные источника</span></label>
-<label class="option"><input type="radio" name="book8-passport-q3" value="B"><span>добавлять темы, которых нет в доступном описании</span></label>
-<label class="option"><input type="radio" name="book8-passport-q3" value="C"><span>расширять материал за счёт похожих учебников</span></label>
-<label class="option"><input type="radio" name="book8-passport-q3" value="D"><span>создавать вопросы по предполагаемым разделам</span></label>
-<label class="option"><input type="radio" name="book8-passport-q3" value="E"><span>заменять источник другими пособиями</span></label>
-</div>
-<div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Строгая подготовка требует не добавлять неподтверждённые факты.</p><p><b>Источник:</b> Мурина Л.А. Методика русского языка в школах Белоруссии. Минск: Университетское, 1990.</p></div>
-</article>
+<div class="source-note"><b>Источник:</b> Мурина Л.А. Методика русского языка. Минск: Университетское, 1990.</div>
+
+
+
+
+<article class="question" data-answer="A"><div class="q-top"><div class="q-num">3</div><div class="q-text">Что нельзя делать при недостатке подтверждённого материала? <span class="level">C</span></div></div><div class="options"><label class="option"><input name="book8-passport-q3" type="radio" value="A"/><span>придумывать содержание разделов</span></label><label class="option"><input name="book8-passport-q3" type="radio" value="B"/><span>указывать проверенные сведения</span></label><label class="option"><input name="book8-passport-q3" type="radio" value="C"/><span>сохранять точность источника</span></label><label class="option"><input name="book8-passport-q3" type="radio" value="D"/><span>отделять факты от предположений</span></label><label class="option"><input name="book8-passport-q3" type="radio" value="E"/><span>не расширять данные без текста</span></label></div><div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Нельзя создавать вопросы по непроверенным главам и разделам, если полный текст не подтверждает содержание.</p><p><b>Источник:</b> Мурина Л.А. Методика русского языка. Минск: Университетское, 1990.</p></div></article>
+<article class="question" data-answer="B"><div class="q-top"><div class="q-num">2</div><div class="q-text">Какой подход соответствует строгой работе с официальной литературой? <span class="level">C</span></div></div><div class="options"><label class="option"><input name="book8-passport-q2" type="radio" value="A"/><span>расширять материал по аналогии</span></label><label class="option"><input name="book8-passport-q2" type="radio" value="B"/><span>не добавлять неподтверждённые главы</span></label><label class="option"><input name="book8-passport-q2" type="radio" value="C"/><span>заменять источник другим пособием</span></label><label class="option"><input name="book8-passport-q2" type="radio" value="D"/><span>создавать вопросы по догадке</span></label><label class="option"><input name="book8-passport-q2" type="radio" value="E"/><span>смешивать разные учебники</span></label></div><div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Строгая подготовка требует опоры на проверенные сведения, а не на предположения о содержании.</p><p><b>Источник:</b> Мурина Л.А. Методика русского языка. Минск: Университетское, 1990.</p></div></article>
+<article class="question" data-answer="C"><div class="q-top"><div class="q-num">1</div><div class="q-text">Какой тип сведений можно использовать при отсутствии полного текста пособия? <span class="level">B</span></div></div><div class="options"><label class="option"><input name="book8-passport-q1" type="radio" value="A"/><span>предполагаемые главы пособия</span></label><label class="option"><input name="book8-passport-q1" type="radio" value="B"/><span>темы из похожих учебников</span></label><label class="option"><input name="book8-passport-q1" type="radio" value="C"/><span>подтверждённые библиографические данные</span></label><label class="option"><input name="book8-passport-q1" type="radio" value="D"/><span>примерные планы разделов в методической работе</span></label><label class="option"><input name="book8-passport-q1" type="radio" value="E"/><span>непроверенные методические факты</span></label></div><div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> При отсутствии полного текста корректно использовать подтверждённые сведения и не добавлять неподтверждённое содержание.</p><p><b>Источник:</b> Мурина Л.А. Методика русского языка. Минск: Университетское, 1990.</p></div></article>
 <div class="section-actions"><button class="check-section" type="button">Показать результат</button><a class="back-top" href="#top">Наверх</a></div><div class="section-result"></div>
 </section>
 <section class="section quiz-section" id="book7-dictionary">
@@ -516,68 +454,68 @@ button:hover{background:#432f69}
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Что раскрывает лингвокультурологический словарь? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-dictionary-q1" value="A"><span>связь слова с культурным смыслом и речевым употреблением</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q1" value="B"><span>правописание слов по орфографическим правилам</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q1" value="C"><span>морфемное строение слов</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q1" value="D"><span>постановку знаков препинания</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q1" value="E"><span>произношение слов и нормы ударения</span></label>
+<label class="option"><input name="book7-dictionary-q1" type="radio" value="A"/><span>слово в культурном и речевом контексте</span></label>
+<label class="option"><input name="book7-dictionary-q1" type="radio" value="B"/><span>правописание слов по орфографическим правилам</span></label>
+<label class="option"><input name="book7-dictionary-q1" type="radio" value="C"/><span>морфемное строение слов</span></label>
+<label class="option"><input name="book7-dictionary-q1" type="radio" value="D"/><span>постановку знаков препинания</span></label>
+<label class="option"><input name="book7-dictionary-q1" type="radio" value="E"/><span>произношение слов и нормы ударения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Лингвокультурологический словарь раскрывает культурный смысл слова.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">К какому типу относится словарь культурных концептов? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-dictionary-q2" value="A"><span>лингвокультурологический словарь</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q2" value="B"><span>орфографический словарь</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q2" value="C"><span>морфемный словарь</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q2" value="D"><span>пунктуационный справочник</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q2" value="E"><span>орфоэпический словарь</span></label>
+<label class="option"><input name="book7-dictionary-q2" type="radio" value="A"/><span>лингвокультурологический словарь</span></label>
+<label class="option"><input name="book7-dictionary-q2" type="radio" value="B"/><span>орфографический словарь</span></label>
+<label class="option"><input name="book7-dictionary-q2" type="radio" value="C"/><span>морфемный словарь в методической работе</span></label>
+<label class="option"><input name="book7-dictionary-q2" type="radio" value="D"/><span>пунктуационный справочник</span></label>
+<label class="option"><input name="book7-dictionary-q2" type="radio" value="E"/><span>орфоэпический словарь</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Словарь культурных концептов относится к лингвокультурологическому типу.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Что называется культурным концептом в обучении русскому языку? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-dictionary-q3" value="A"><span>грамматическая форма слова</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q3" value="B"><span>культурно значимое понятие, выраженное через слово</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q3" value="C"><span>орфографическое правило</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q3" value="D"><span>синтаксическая связь между словами</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q3" value="E"><span>звуковая оболочка языковой единицы</span></label>
+<label class="option"><input name="book7-dictionary-q3" type="radio" value="A"/><span>грамматическая форма слова</span></label>
+<label class="option"><input name="book7-dictionary-q3" type="radio" value="B"/><span>культурное понятие в слове</span></label>
+<label class="option"><input name="book7-dictionary-q3" type="radio" value="C"/><span>орфографическое правило</span></label>
+<label class="option"><input name="book7-dictionary-q3" type="radio" value="D"/><span>синтаксическая связь между словами</span></label>
+<label class="option"><input name="book7-dictionary-q3" type="radio" value="E"/><span>звуковая оболочка языковой единицы</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Культурный концепт — значимое для культуры понятие, выражаемое через язык.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,C,F">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Выберите тематические блоки, по которым объединяются культурные концепты. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>Человек</span></label>
-<label class="option"><input type="checkbox" value="B"><span>Орфография</span></label>
-<label class="option"><input type="checkbox" value="C"><span>Общество</span></label>
-<label class="option"><input type="checkbox" value="D"><span>Морфология</span></label>
-<label class="option"><input type="checkbox" value="E"><span>Пунктуация</span></label>
-<label class="option"><input type="checkbox" value="F"><span>Природа</span></label>
-<label class="option"><input type="checkbox" value="G"><span>Синтаксис</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>Человек</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>Орфография</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>Общество</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>Морфология</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>Пунктуация</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>Природа</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>Синтаксис</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,C,F.</p><p><b>Объяснение:</b> Концепты объединяются в блоки «Человек», «Общество», «Природа».</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Почему словарь культурных концептов важен для методики русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-dictionary-q5" value="A"><span>он связывает слово, культурный смысл и межкультурную коммуникацию</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q5" value="B"><span>он помогает классифицировать орфографические ошибки</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q5" value="C"><span>он описывает морфологические признаки частей речи</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q5" value="D"><span>он систематизирует пунктуационные конструкции</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q5" value="E"><span>он фиксирует нормы произношения</span></label>
+<label class="option"><input name="book7-dictionary-q5" type="radio" value="A"/><span>связь слова, культуры и общения</span></label>
+<label class="option"><input name="book7-dictionary-q5" type="radio" value="B"/><span>он помогает классифицировать орфографические ошибки</span></label>
+<label class="option"><input name="book7-dictionary-q5" type="radio" value="C"/><span>он описывает морфологические признаки частей речи</span></label>
+<label class="option"><input name="book7-dictionary-q5" type="radio" value="D"/><span>он систематизирует пунктуационные конструкции</span></label>
+<label class="option"><input name="book7-dictionary-q5" type="radio" value="E"/><span>он фиксирует нормы произношения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Словарь показывает, как слово выражает культурный смысл и участвует в общении.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Какое направление поддерживает работа со словарём культурных концептов? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-dictionary-q6" value="A"><span>орфографическая грамотность</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q6" value="B"><span>морфемный анализ</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q6" value="C"><span>синтаксический анализ</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q6" value="D"><span>пунктуационное оформление</span></label>
-<label class="option"><input type="radio" name="book7-dictionary-q6" value="E"><span>культуроведческий подход и развитие коммуникативной компетенции</span></label>
+<label class="option"><input name="book7-dictionary-q6" type="radio" value="A"/><span>орфографическая грамотность</span></label>
+<label class="option"><input name="book7-dictionary-q6" type="radio" value="B"/><span>морфемный анализ</span></label>
+<label class="option"><input name="book7-dictionary-q6" type="radio" value="C"/><span>синтаксический анализ</span></label>
+<label class="option"><input name="book7-dictionary-q6" type="radio" value="D"/><span>пунктуационное оформление</span></label>
+<label class="option"><input name="book7-dictionary-q6" type="radio" value="E"/><span>культуроведческая коммуникация</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> Работа со словарём концептов относится к культуроведческому и коммуникативному направлению.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -596,68 +534,68 @@ button:hover{background:#432f69}
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Зачем на уроке русского языка сопоставлять реалии разных культур? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-comparison-q1" value="A"><span>для проверки орфографического навыка</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q1" value="B"><span>для повторения морфологических признаков</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q1" value="C"><span>для развития межкультурного понимания и точного речевого выбора</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q1" value="D"><span>для составления пунктуационных схем</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q1" value="E"><span>для определения способов словообразования</span></label>
+<label class="option"><input name="book7-comparison-q1" type="radio" value="A"/><span>для проверки орфографического навыка</span></label>
+<label class="option"><input name="book7-comparison-q1" type="radio" value="B"/><span>для повторения морфологических признаков</span></label>
+<label class="option"><input name="book7-comparison-q1" type="radio" value="C"/><span>межкультурное понимание речи</span></label>
+<label class="option"><input name="book7-comparison-q1" type="radio" value="D"/><span>для составления пунктуационных схем</span></label>
+<label class="option"><input name="book7-comparison-q1" type="radio" value="E"/><span>для определения способов словообразования</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Сопоставление реалий помогает учитывать культурные различия в общении.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Что означает реалия культуры в лингвокультурологическом обучении? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-comparison-q2" value="A"><span>предмет, явление или понятие, значимое для определённой культуры</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q2" value="B"><span>грамматическая форма, изменяющаяся по падежам</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q2" value="C"><span>орфограмма, проверяемая по правилу</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q2" value="D"><span>синтаксическая конструкция с осложнением</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q2" value="E"><span>фонетическая особенность произношения</span></label>
+<label class="option"><input name="book7-comparison-q2" type="radio" value="A"/><span>культурно значимое явление</span></label>
+<label class="option"><input name="book7-comparison-q2" type="radio" value="B"/><span>грамматическая форма, изменяющаяся по падежам</span></label>
+<label class="option"><input name="book7-comparison-q2" type="radio" value="C"/><span>орфограмма, проверяемая по правилу</span></label>
+<label class="option"><input name="book7-comparison-q2" type="radio" value="D"/><span>синтаксическая конструкция с осложнением</span></label>
+<label class="option"><input name="book7-comparison-q2" type="radio" value="E"/><span>фонетическая особенность произношения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Реалия культуры — культурно значимый предмет, явление или понятие.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Какое умение формируется при сравнении русской культуры с другими культурами? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-comparison-q3" value="A"><span>разбирать слово по составу</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q3" value="B"><span>выделять грамматическую основу</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q3" value="C"><span>проверять безударные гласные</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q3" value="D"><span>понимать культурные различия и сходства в речевом общении</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q3" value="E"><span>ставить знаки препинания в сложном предложении</span></label>
+<label class="option"><input name="book7-comparison-q3" type="radio" value="A"/><span>разбирать слово по составу</span></label>
+<label class="option"><input name="book7-comparison-q3" type="radio" value="B"/><span>выделять грамматическую основу</span></label>
+<label class="option"><input name="book7-comparison-q3" type="radio" value="C"/><span>проверять безударные гласные</span></label>
+<label class="option"><input name="book7-comparison-q3" type="radio" value="D"/><span>понимать культурные различия в речи</span></label>
+<label class="option"><input name="book7-comparison-q3" type="radio" value="E"/><span>ставить знаки препинания в сложном предложении</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Сравнение культур развивает понимание сходств и различий.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Какой методический приём подходит для анализа реалий разных культур? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-comparison-q4" value="A"><span>механическое списывание текста</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q4" value="B"><span>заучивание грамматического определения</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q4" value="C"><span>сопоставление культурных значений, контекстов и речевых ситуаций</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q4" value="D"><span>переписывание словарной статьи без обсуждения</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q4" value="E"><span>подбор орфограмм без смыслового анализа</span></label>
+<label class="option"><input name="book7-comparison-q4" type="radio" value="A"/><span>механическое списывание текста</span></label>
+<label class="option"><input name="book7-comparison-q4" type="radio" value="B"/><span>заучивание грамматического определения</span></label>
+<label class="option"><input name="book7-comparison-q4" type="radio" value="C"/><span>сопоставление культурных значений</span></label>
+<label class="option"><input name="book7-comparison-q4" type="radio" value="D"/><span>переписывание словарной статьи без обсуждения</span></label>
+<label class="option"><input name="book7-comparison-q4" type="radio" value="E"/><span>подбор орфограмм без смыслового анализа</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Анализ реалий требует сопоставления культурных значений и ситуаций общения.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B,C,E">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Выберите понятия, связанные с сопоставительным анализом культур. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>орфографическая ошибка</span></label>
-<label class="option"><input type="checkbox" value="B"><span>языковая картина мира</span></label>
-<label class="option"><input type="checkbox" value="C"><span>межкультурное понимание</span></label>
-<label class="option"><input type="checkbox" value="D"><span>морфемный состав слова</span></label>
-<label class="option"><input type="checkbox" value="E"><span>реалия культуры</span></label>
-<label class="option"><input type="checkbox" value="F"><span>падежное окончание</span></label>
-<label class="option"><input type="checkbox" value="G"><span>пунктуационная схема</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>орфографическая ошибка</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>языковая картина мира</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>межкультурное понимание</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>морфемный состав слова</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>реалия культуры</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>падежное окончание</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>пунктуационная схема</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B,C,E.</p><p><b>Объяснение:</b> Сопоставительный анализ связан с картиной мира, реалиями и межкультурным пониманием.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Почему сопоставление культур важно для методики русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-comparison-q6" value="A"><span>оно заменяет речевую практику грамматическим разбором</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q6" value="B"><span>оно сводит обучение к проверке правописания</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q6" value="C"><span>оно ограничивает текстовую работу пересказом</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q6" value="D"><span>оно отделяет язык от ситуации общения</span></label>
-<label class="option"><input type="radio" name="book7-comparison-q6" value="E"><span>оно помогает обучать языку как средству межкультурного общения</span></label>
+<label class="option"><input name="book7-comparison-q6" type="radio" value="A"/><span>оно заменяет речевую практику грамматическим разбором</span></label>
+<label class="option"><input name="book7-comparison-q6" type="radio" value="B"/><span>оно сводит обучение к проверке правописания</span></label>
+<label class="option"><input name="book7-comparison-q6" type="radio" value="C"/><span>оно ограничивает текстовую работу пересказом</span></label>
+<label class="option"><input name="book7-comparison-q6" type="radio" value="D"/><span>оно отделяет язык от ситуации общения</span></label>
+<label class="option"><input name="book7-comparison-q6" type="radio" value="E"/><span>язык как средство межкультурного общения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> Сопоставление культур помогает обучать языку как средству общения.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -676,68 +614,68 @@ button:hover{background:#432f69}
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Какую роль выполняет художественный текст на культуроведческом уроке русского языка? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-literature-q1" value="A"><span>служит материалом для механического списывания</span></label>
-<label class="option"><input type="radio" name="book7-literature-q1" value="B"><span>используется для проверки орфографии</span></label>
-<label class="option"><input type="radio" name="book7-literature-q1" value="C"><span>заменяет работу со словарём</span></label>
-<label class="option"><input type="radio" name="book7-literature-q1" value="D"><span>раскрывает культурные смыслы через образ, слово и ситуацию</span></label>
-<label class="option"><input type="radio" name="book7-literature-q1" value="E"><span>ограничивает урок пересказом сюжета</span></label>
+<label class="option"><input name="book7-literature-q1" type="radio" value="A"/><span>служит материалом для механического списывания</span></label>
+<label class="option"><input name="book7-literature-q1" type="radio" value="B"/><span>используется для проверки орфографии</span></label>
+<label class="option"><input name="book7-literature-q1" type="radio" value="C"/><span>заменяет работу со словарём</span></label>
+<label class="option"><input name="book7-literature-q1" type="radio" value="D"/><span>культурный смысл образа и слова</span></label>
+<label class="option"><input name="book7-literature-q1" type="radio" value="E"/><span>ограничивает урок пересказом сюжета</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Художественный текст раскрывает культурные смыслы через язык и образ.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Что является целью лингвокультурологического анализа художественного текста? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-literature-q2" value="A"><span>найти все орфограммы</span></label>
-<label class="option"><input type="radio" name="book7-literature-q2" value="B"><span>выявить культурные смыслы, выраженные в языке и образах текста</span></label>
-<label class="option"><input type="radio" name="book7-literature-q2" value="C"><span>составить схему каждого предложения</span></label>
-<label class="option"><input type="radio" name="book7-literature-q2" value="D"><span>определить части речи всех слов</span></label>
-<label class="option"><input type="radio" name="book7-literature-q2" value="E"><span>переписать текст без комментария</span></label>
+<label class="option"><input name="book7-literature-q2" type="radio" value="A"/><span>найти все орфограммы</span></label>
+<label class="option"><input name="book7-literature-q2" type="radio" value="B"/><span>выявление культурных смыслов текста</span></label>
+<label class="option"><input name="book7-literature-q2" type="radio" value="C"/><span>составить схему каждого предложения</span></label>
+<label class="option"><input name="book7-literature-q2" type="radio" value="D"/><span>определить части речи всех слов</span></label>
+<label class="option"><input name="book7-literature-q2" type="radio" value="E"/><span>переписать текст без комментария</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Такой анализ направлен на понимание культурных смыслов текста.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,C,F">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Выберите действия, относящиеся к анализу художественного текста в культуроведческом обучении. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>выявление культурно значимых слов и образов</span></label>
-<label class="option"><input type="checkbox" value="B"><span>механическое списывание фрагмента</span></label>
-<label class="option"><input type="checkbox" value="C"><span>соотнесение текста с культурным концептом</span></label>
-<label class="option"><input type="checkbox" value="D"><span>заучивание текста без обсуждения</span></label>
-<label class="option"><input type="checkbox" value="E"><span>подсчёт количества предложений</span></label>
-<label class="option"><input type="checkbox" value="F"><span>интерпретация смысла через языковые детали</span></label>
-<label class="option"><input type="checkbox" value="G"><span>переписывание словарной статьи</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>выявление культурно значимых слов и образов</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>механическое списывание фрагмента</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>соотнесение текста с культурным концептом</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>заучивание текста без обсуждения</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>подсчёт количества предложений</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>интерпретация смысла через языковые детали</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>переписывание словарной статьи</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,C,F.</p><p><b>Объяснение:</b> Культуроведческий анализ включает слова, концепты и интерпретацию.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Как словарь культурных концептов помогает при чтении художественного текста? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-literature-q4" value="A"><span>заменяет чтение готовым пересказом</span></label>
-<label class="option"><input type="radio" name="book7-literature-q4" value="B"><span>используется вместо анализа образов</span></label>
-<label class="option"><input type="radio" name="book7-literature-q4" value="C"><span>ограничивает работу правописанием</span></label>
-<label class="option"><input type="radio" name="book7-literature-q4" value="D"><span>служит для определения грамматических форм</span></label>
-<label class="option"><input type="radio" name="book7-literature-q4" value="E"><span>помогает понять культурное значение ключевых слов и образов</span></label>
+<label class="option"><input name="book7-literature-q4" type="radio" value="A"/><span>заменяет чтение готовым пересказом</span></label>
+<label class="option"><input name="book7-literature-q4" type="radio" value="B"/><span>используется вместо анализа образов</span></label>
+<label class="option"><input name="book7-literature-q4" type="radio" value="C"/><span>ограничивает работу правописанием</span></label>
+<label class="option"><input name="book7-literature-q4" type="radio" value="D"/><span>служит для определения грамматических форм</span></label>
+<label class="option"><input name="book7-literature-q4" type="radio" value="E"/><span>понимание ключевых слов и образов</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> Словарь помогает раскрыть культурное значение ключевых слов и образов.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Какой результат ожидается от работы с художественным текстом и культурным концептом? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-literature-q5" value="A"><span>учащийся запоминает термины без речевого применения</span></label>
-<label class="option"><input type="radio" name="book7-literature-q5" value="B"><span>учащийся выполняет формальный грамматический разбор</span></label>
-<label class="option"><input type="radio" name="book7-literature-q5" value="C"><span>учащийся понимает культурный смысл текста и выражает свою интерпретацию</span></label>
-<label class="option"><input type="radio" name="book7-literature-q5" value="D"><span>учащийся переписывает текст без анализа</span></label>
-<label class="option"><input type="radio" name="book7-literature-q5" value="E"><span>учащийся заменяет чтение работой с правилом</span></label>
+<label class="option"><input name="book7-literature-q5" type="radio" value="A"/><span>учащийся запоминает термины без речевого применения</span></label>
+<label class="option"><input name="book7-literature-q5" type="radio" value="B"/><span>учащийся выполняет формальный грамматический разбор</span></label>
+<label class="option"><input name="book7-literature-q5" type="radio" value="C"/><span>понимание и интерпретация текста</span></label>
+<label class="option"><input name="book7-literature-q5" type="radio" value="D"/><span>учащийся переписывает текст без анализа</span></label>
+<label class="option"><input name="book7-literature-q5" type="radio" value="E"/><span>учащийся заменяет чтение работой с правилом</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Работа с текстом и концептом развивает понимание и интерпретацию.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Как связаны словарь культурных концептов и чтение художественного текста? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-literature-q6" value="A"><span>словарь заменяет чтение</span></label>
-<label class="option"><input type="radio" name="book7-literature-q6" value="B"><span>чтение не связано с культурным смыслом слова</span></label>
-<label class="option"><input type="radio" name="book7-literature-q6" value="C"><span>словарь помогает соединять чтение текста с лингвокультурологическим анализом</span></label>
-<label class="option"><input type="radio" name="book7-literature-q6" value="D"><span>анализ текста исключает работу с концептами</span></label>
-<label class="option"><input type="radio" name="book7-literature-q6" value="E"><span>текст используется для проверки правописания</span></label>
+<label class="option"><input name="book7-literature-q6" type="radio" value="A"/><span>словарь заменяет чтение</span></label>
+<label class="option"><input name="book7-literature-q6" type="radio" value="B"/><span>чтение не связано с культурным смыслом слова</span></label>
+<label class="option"><input name="book7-literature-q6" type="radio" value="C"/><span>словарная опора анализа текста</span></label>
+<label class="option"><input name="book7-literature-q6" type="radio" value="D"/><span>анализ текста исключает работу с концептами</span></label>
+<label class="option"><input name="book7-literature-q6" type="radio" value="E"/><span>текст используется для проверки правописания</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Словарь помогает осмыслить культурные значения слов в текстовом контексте.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -756,57 +694,57 @@ button:hover{background:#432f69}
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Кому может быть полезен словарь культурных концептов? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-audience-q1" value="A"><span>учащимся, которые изучают правописание</span></label>
-<label class="option"><input type="radio" name="book7-audience-q1" value="B"><span>читателям, которым нужен орфографический минимум</span></label>
-<label class="option"><input type="radio" name="book7-audience-q1" value="C"><span>обучающимся, работающим с грамматическими таблицами</span></label>
-<label class="option"><input type="radio" name="book7-audience-q1" value="D"><span>старшеклассникам, студентам-гуманитариям и учителям-филологам</span></label>
-<label class="option"><input type="radio" name="book7-audience-q1" value="E"><span>учащимся, выполняющим пунктуационные упражнения</span></label>
+<label class="option"><input name="book7-audience-q1" type="radio" value="A"/><span>учащимся, которые изучают правописание</span></label>
+<label class="option"><input name="book7-audience-q1" type="radio" value="B"/><span>читателям, которым нужен орфографический минимум</span></label>
+<label class="option"><input name="book7-audience-q1" type="radio" value="C"/><span>обучающимся, работающим с грамматическими таблицами</span></label>
+<label class="option"><input name="book7-audience-q1" type="radio" value="D"/><span>старшеклассникам, студентам и учителям</span></label>
+<label class="option"><input name="book7-audience-q1" type="radio" value="E"/><span>учащимся, выполняющим пунктуационные упражнения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Словарь полезен тем, кто изучает язык в связи с культурой.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,C,F">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Выберите адресатов лингвокультурологического словаря. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>старшеклассники</span></label>
-<label class="option"><input type="checkbox" value="B"><span>учащиеся начальной школы</span></label>
-<label class="option"><input type="checkbox" value="C"><span>студенты гуманитарных факультетов</span></label>
-<label class="option"><input type="checkbox" value="D"><span>технические редакторы чертежей</span></label>
-<label class="option"><input type="checkbox" value="E"><span>специалисты по бухгалтерскому учёту</span></label>
-<label class="option"><input type="checkbox" value="F"><span>учителя-филологи</span></label>
-<label class="option"><input type="checkbox" value="G"><span>лаборанты естественно-научного профиля</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>старшеклассники</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>учащиеся начальной школы</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>студенты гуманитарных факультетов</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>технические редакторы чертежей</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>специалисты по бухгалтерскому учёту</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>учителя-филологи</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>лаборанты естественно-научного профиля</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,C,F.</p><p><b>Объяснение:</b> Адресатами являются старшеклассники, студенты-гуманитарии и учителя-филологи.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">С каким направлением связана область применения словаря культурных концептов? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-audience-q3" value="A"><span>орфографическая подготовка</span></label>
-<label class="option"><input type="radio" name="book7-audience-q3" value="B"><span>морфемный анализ</span></label>
-<label class="option"><input type="radio" name="book7-audience-q3" value="C"><span>лингвокультурология и межкультурная коммуникация</span></label>
-<label class="option"><input type="radio" name="book7-audience-q3" value="D"><span>пунктуационный практикум</span></label>
-<label class="option"><input type="radio" name="book7-audience-q3" value="E"><span>фонетическая транскрипция</span></label>
+<label class="option"><input name="book7-audience-q3" type="radio" value="A"/><span>орфографическая подготовка</span></label>
+<label class="option"><input name="book7-audience-q3" type="radio" value="B"/><span>морфемный анализ в методической работе</span></label>
+<label class="option"><input name="book7-audience-q3" type="radio" value="C"/><span>лингвокультурология и коммуникация</span></label>
+<label class="option"><input name="book7-audience-q3" type="radio" value="D"/><span>пунктуационный практикум</span></label>
+<label class="option"><input name="book7-audience-q3" type="radio" value="E"/><span>фонетическая транскрипция</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Словарь культурных концептов относится к лингвокультурологии и межкультурной коммуникации.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Почему работа со словарём культурных концептов важна для подготовки по методике русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-audience-q4" value="A"><span>она заменяет анализ текста внешним пересказом</span></label>
-<label class="option"><input type="radio" name="book7-audience-q4" value="B"><span>она показывает развитие языковой личности через культуру, текст и общение</span></label>
-<label class="option"><input type="radio" name="book7-audience-q4" value="C"><span>она исключает работу с культурными концептами</span></label>
-<label class="option"><input type="radio" name="book7-audience-q4" value="D"><span>она сводит методику к орфографическим упражнениям</span></label>
-<label class="option"><input type="radio" name="book7-audience-q4" value="E"><span>она отделяет русский язык от коммуникации</span></label>
+<label class="option"><input name="book7-audience-q4" type="radio" value="A"/><span>она заменяет анализ текста внешним пересказом</span></label>
+<label class="option"><input name="book7-audience-q4" type="radio" value="B"/><span>развитие языковой личности</span></label>
+<label class="option"><input name="book7-audience-q4" type="radio" value="C"/><span>она исключает работу с культурными концептами</span></label>
+<label class="option"><input name="book7-audience-q4" type="radio" value="D"/><span>она сводит методику к орфографическим упражнениям</span></label>
+<label class="option"><input name="book7-audience-q4" type="radio" value="E"/><span>она отделяет русский язык от коммуникации</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Работа со словарём показывает связь языка, культуры, текста и общения.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Какой методический акцент сохраняется при использовании словаря культурных концептов? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-audience-q5" value="A"><span>подмена текста списком правил</span></label>
-<label class="option"><input type="radio" name="book7-audience-q5" value="B"><span>ограничение урока грамматическим разбором</span></label>
-<label class="option"><input type="radio" name="book7-audience-q5" value="C"><span>связь языка, культуры, текста и межкультурной коммуникации</span></label>
-<label class="option"><input type="radio" name="book7-audience-q5" value="D"><span>отделение слова от культурного контекста</span></label>
-<label class="option"><input type="radio" name="book7-audience-q5" value="E"><span>замена речевой практики терминологией</span></label>
+<label class="option"><input name="book7-audience-q5" type="radio" value="A"/><span>подмена текста списком правил</span></label>
+<label class="option"><input name="book7-audience-q5" type="radio" value="B"/><span>ограничение урока грамматическим разбором</span></label>
+<label class="option"><input name="book7-audience-q5" type="radio" value="C"/><span>связь языка, текста и культуры</span></label>
+<label class="option"><input name="book7-audience-q5" type="radio" value="D"/><span>отделение слова от культурного контекста</span></label>
+<label class="option"><input name="book7-audience-q5" type="radio" value="E"/><span>замена речевой практики терминологией</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Главный акцент — связь языка, культуры, текста и межкультурной коммуникации.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
@@ -825,91 +763,91 @@ button:hover{background:#432f69}
 <article class="question" data-answer="C">
 <div class="q-top"><div class="q-num">1</div><div class="q-text">Какой главный результат ожидается от культуроведческого обучения русскому языку? <span class="level">B</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-final-q1" value="A"><span>запоминание грамматических терминов</span></label>
-<label class="option"><input type="radio" name="book7-final-q1" value="B"><span>механическое выполнение орфографических упражнений</span></label>
-<label class="option"><input type="radio" name="book7-final-q1" value="C"><span>понимание языка как носителя культурного смысла и средства общения</span></label>
-<label class="option"><input type="radio" name="book7-final-q1" value="D"><span>составление схем без работы с текстом</span></label>
-<label class="option"><input type="radio" name="book7-final-q1" value="E"><span>повторение правил без речевого применения</span></label>
+<label class="option"><input name="book7-final-q1" type="radio" value="A"/><span>запоминание грамматических терминов</span></label>
+<label class="option"><input name="book7-final-q1" type="radio" value="B"/><span>механическое выполнение орфографических упражнений</span></label>
+<label class="option"><input name="book7-final-q1" type="radio" value="C"/><span>язык как носитель культурного смысла</span></label>
+<label class="option"><input name="book7-final-q1" type="radio" value="D"/><span>составление схем без работы с текстом</span></label>
+<label class="option"><input name="book7-final-q1" type="radio" value="E"/><span>повторение правил без речевого применения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C.</p><p><b>Объяснение:</b> Культуроведческое обучение показывает язык как средство культурного смысла и общения.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">2</div><div class="q-text">Как культурный концепт помогает организовать содержание урока русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-final-q2" value="A"><span>заменяет речевую работу списком правил</span></label>
-<label class="option"><input type="radio" name="book7-final-q2" value="B"><span>объединяет слово, текст, культурный смысл и коммуникацию</span></label>
-<label class="option"><input type="radio" name="book7-final-q2" value="C"><span>ограничивает урок морфологическим разбором</span></label>
-<label class="option"><input type="radio" name="book7-final-q2" value="D"><span>исключает художественный текст</span></label>
-<label class="option"><input type="radio" name="book7-final-q2" value="E"><span>сводит обучение к проверке правописания</span></label>
+<label class="option"><input name="book7-final-q2" type="radio" value="A"/><span>заменяет речевую работу списком правил</span></label>
+<label class="option"><input name="book7-final-q2" type="radio" value="B"/><span>связь слова, текста и культуры</span></label>
+<label class="option"><input name="book7-final-q2" type="radio" value="C"/><span>ограничивает урок морфологическим разбором</span></label>
+<label class="option"><input name="book7-final-q2" type="radio" value="D"/><span>исключает художественный текст</span></label>
+<label class="option"><input name="book7-final-q2" type="radio" value="E"/><span>сводит обучение к проверке правописания</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Концепт становится смысловым центром урока.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A,D,F">
 <div class="q-top"><div class="q-num">3</div><div class="q-text">Выберите компоненты культуроведческого обучения русскому языку. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>работа с культурным концептом</span></label>
-<label class="option"><input type="checkbox" value="B"><span>формальное списывание текста</span></label>
-<label class="option"><input type="checkbox" value="C"><span>заучивание правил без общения</span></label>
-<label class="option"><input type="checkbox" value="D"><span>анализ текста как носителя культурного смысла</span></label>
-<label class="option"><input type="checkbox" value="E"><span>механическое повторение терминов</span></label>
-<label class="option"><input type="checkbox" value="F"><span>межкультурная коммуникация</span></label>
-<label class="option"><input type="checkbox" value="G"><span>изолированный разбор языковых форм</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>работа с культурным концептом</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>формальное списывание текста</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>заучивание правил без общения</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>анализ текста как носителя культурного смысла</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>механическое повторение терминов</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>межкультурная коммуникация</span></label>
+<label class="option"><input type="checkbox" value="G"/><span>изолированный разбор языковых форм</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A,D,F.</p><p><b>Объяснение:</b> Компоненты культуроведческого обучения — концепт, текст и межкультурная коммуникация.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="E">
 <div class="q-top"><div class="q-num">4</div><div class="q-text">Какое действие ученика показывает понимание культурного смысла текста? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-final-q4" value="A"><span>переписывание текста без комментария</span></label>
-<label class="option"><input type="radio" name="book7-final-q4" value="B"><span>подсчёт количества предложений</span></label>
-<label class="option"><input type="radio" name="book7-final-q4" value="C"><span>заучивание определения без примера</span></label>
-<label class="option"><input type="radio" name="book7-final-q4" value="D"><span>поиск орфограмм без анализа содержания</span></label>
-<label class="option"><input type="radio" name="book7-final-q4" value="E"><span>объяснение ключевых слов и образов через культурный контекст</span></label>
+<label class="option"><input name="book7-final-q4" type="radio" value="A"/><span>переписывание текста без комментария</span></label>
+<label class="option"><input name="book7-final-q4" type="radio" value="B"/><span>подсчёт количества предложений</span></label>
+<label class="option"><input name="book7-final-q4" type="radio" value="C"/><span>заучивание определения без примера</span></label>
+<label class="option"><input name="book7-final-q4" type="radio" value="D"/><span>поиск орфограмм без анализа содержания</span></label>
+<label class="option"><input name="book7-final-q4" type="radio" value="E"/><span>объяснение слов через культурный контекст</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> E.</p><p><b>Объяснение:</b> Понимание культурного смысла проявляется в объяснении слов и образов через контекст.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="B">
 <div class="q-top"><div class="q-num">5</div><div class="q-text">Как культуроведческий подход влияет на развитие языковой личности учащегося? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-final-q5" value="A"><span>ограничивает речевую деятельность правилами</span></label>
-<label class="option"><input type="radio" name="book7-final-q5" value="B"><span>развивает способность понимать культурные смыслы и выражать их в речи</span></label>
-<label class="option"><input type="radio" name="book7-final-q5" value="C"><span>заменяет работу с текстом таблицами</span></label>
-<label class="option"><input type="radio" name="book7-final-q5" value="D"><span>исключает межкультурное сравнение</span></label>
-<label class="option"><input type="radio" name="book7-final-q5" value="E"><span>сводит обучение к орфографическому контролю</span></label>
+<label class="option"><input name="book7-final-q5" type="radio" value="A"/><span>ограничивает речевую деятельность правилами</span></label>
+<label class="option"><input name="book7-final-q5" type="radio" value="B"/><span>понимание культурных смыслов в речи</span></label>
+<label class="option"><input name="book7-final-q5" type="radio" value="C"/><span>заменяет работу с текстом таблицами</span></label>
+<label class="option"><input name="book7-final-q5" type="radio" value="D"/><span>исключает межкультурное сравнение</span></label>
+<label class="option"><input name="book7-final-q5" type="radio" value="E"/><span>сводит обучение к орфографическому контролю</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> B.</p><p><b>Объяснение:</b> Языковая личность развивается через понимание культурных смыслов и их выражение в речи.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="A">
 <div class="q-top"><div class="q-num">6</div><div class="q-text">Какой ответ точнее отражает методическую ценность межкультурной коммуникации? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-final-q6" value="A"><span>она учит учитывать культурный контекст при выборе речевых средств</span></label>
-<label class="option"><input type="radio" name="book7-final-q6" value="B"><span>она заменяет языковую работу пересказом правил</span></label>
-<label class="option"><input type="radio" name="book7-final-q6" value="C"><span>она исключает сравнение культурных смыслов</span></label>
-<label class="option"><input type="radio" name="book7-final-q6" value="D"><span>она ограничивает урок проверкой орфографии</span></label>
-<label class="option"><input type="radio" name="book7-final-q6" value="E"><span>она отделяет текст от ситуации общения</span></label>
+<label class="option"><input name="book7-final-q6" type="radio" value="A"/><span>учёт культурного контекста речи</span></label>
+<label class="option"><input name="book7-final-q6" type="radio" value="B"/><span>она заменяет языковую работу пересказом правил</span></label>
+<label class="option"><input name="book7-final-q6" type="radio" value="C"/><span>она исключает сравнение культурных смыслов</span></label>
+<label class="option"><input name="book7-final-q6" type="radio" value="D"/><span>она ограничивает урок проверкой орфографии</span></label>
+<label class="option"><input name="book7-final-q6" type="radio" value="E"/><span>она отделяет текст от ситуации общения</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> A.</p><p><b>Объяснение:</b> Межкультурная коммуникация требует учитывать контекст и ситуацию общения.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="C,E">
 <div class="q-top"><div class="q-num">7</div><div class="q-text">Выберите действия, которые показывают осмысленную работу с культурным концептом. <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="checkbox" value="A"><span>списывание текста без обсуждения</span></label>
-<label class="option"><input type="checkbox" value="B"><span>заучивание термина без примеров</span></label>
-<label class="option"><input type="checkbox" value="C"><span>сопоставление культурных значений слова</span></label>
-<label class="option"><input type="checkbox" value="D"><span>подсчёт предложений в тексте</span></label>
-<label class="option"><input type="checkbox" value="E"><span>интерпретация образа через культурный контекст</span></label>
-<label class="option"><input type="checkbox" value="F"><span>переписывание словарной статьи без анализа</span></label>
+<label class="option"><input type="checkbox" value="A"/><span>списывание текста без обсуждения</span></label>
+<label class="option"><input type="checkbox" value="B"/><span>заучивание термина без примеров</span></label>
+<label class="option"><input type="checkbox" value="C"/><span>сопоставление культурных значений слова</span></label>
+<label class="option"><input type="checkbox" value="D"/><span>подсчёт предложений в тексте</span></label>
+<label class="option"><input type="checkbox" value="E"/><span>интерпретация образа через культурный контекст</span></label>
+<label class="option"><input type="checkbox" value="F"/><span>переписывание словарной статьи без анализа</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> C,E.</p><p><b>Объяснение:</b> Осмысленная работа включает сопоставление значений и интерпретацию образов.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
 <article class="question" data-answer="D">
 <div class="q-top"><div class="q-num">8</div><div class="q-text">Как связаны текст, словарь и культурный концепт на уроке русского языка? <span class="level">C</span></div></div>
 <div class="options">
-<label class="option"><input type="radio" name="book7-final-q8" value="A"><span>словарь заменяет текст и речевую деятельность</span></label>
-<label class="option"><input type="radio" name="book7-final-q8" value="B"><span>текст используется без связи с культурным смыслом</span></label>
-<label class="option"><input type="radio" name="book7-final-q8" value="C"><span>концепт рассматривается отдельно от языка и общения</span></label>
-<label class="option"><input type="radio" name="book7-final-q8" value="D"><span>текст показывает концепт в речи, а словарь помогает раскрыть его культурное значение</span></label>
-<label class="option"><input type="radio" name="book7-final-q8" value="E"><span>культурный смысл исключает языковой анализ текста</span></label>
+<label class="option"><input name="book7-final-q8" type="radio" value="A"/><span>словарь заменяет текст и речевую деятельность</span></label>
+<label class="option"><input name="book7-final-q8" type="radio" value="B"/><span>текст используется без связи с культурным смыслом</span></label>
+<label class="option"><input name="book7-final-q8" type="radio" value="C"/><span>концепт рассматривается отдельно от языка и общения</span></label>
+<label class="option"><input name="book7-final-q8" type="radio" value="D"/><span>текст и словарь раскрывают концепт</span></label>
+<label class="option"><input name="book7-final-q8" type="radio" value="E"/><span>культурный смысл исключает языковой анализ текста</span></label>
 </div>
 <div class="answer-review"><p><b>Правильный ответ:</b> D.</p><p><b>Объяснение:</b> Текст даёт речевой контекст, а словарь раскрывает культурное значение концепта.</p><p><b>Источник:</b> Муллагалиева Л.К., Саяхова Л.Г. Русский язык в диалоге культур. Методическое руководство для учителя. Элективный курс. 10–11 классы.</p></div>
 </article>
